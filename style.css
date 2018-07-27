@@ -1,5 +1,7 @@
 body{
-    background-color: brown;
+    background-image: url(miles/pexels-photo-255379.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Boxes{
     display: inline-flex;
@@ -8,12 +10,14 @@ body{
 .Name{ 
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: red;
 }
 .about{
     display: inline-flex;
     border-style: double;
-    background-color: orangered;
+    background-image: url(miles/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -23,7 +27,9 @@ body{
 .projects{
     display: inline-flex;
     border-style: double;
-    background-color: blue;
+    background-image: url(miles/523159398-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -33,7 +39,9 @@ body{
 .Skills{
     display: inline-flex;
     border-style: double;
-    background-color: green;
+    background-image:url(miles/maxresdefault.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover; 
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
