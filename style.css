@@ -1,0 +1,50 @@
+body{
+    background-color: brown;
+}
+.Boxes{
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
+.Name{ 
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.about{
+    display: inline-flex;
+    border-style: double;
+    background-color: orangered;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+    padding: 25px;
+}
+.projects{
+    display: inline-flex;
+    border-style: double;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 50px;
+    align-self: center; 
+}
+.Skills{
+    display: inline-flex;
+    border-style: double;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    align-self: flex-end;
+    padding: 25px;
+    margin-left: 1000px;
+
+}
+.Contact{
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    background-color: honeydew;
+}
