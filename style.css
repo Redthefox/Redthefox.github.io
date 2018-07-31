@@ -51,8 +51,11 @@ body{
 
 }
 .Contact{
-    display: flex;
+    display: inline-flex;
     border-style: solid;
     border-color: blue;
     background-color: honeydew;
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
 }
