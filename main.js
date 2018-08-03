@@ -31,7 +31,7 @@ about.addEventListener("mouseover", function( event ){
 skills.addEventListener("mouseover", function ( event ){
     event.target.style.color = "white";
 });
-
+console.log("Hover over the boxes to see the text!")
 // projects.addEventListener("mouseover", function ( event ){
 //     event.target.style.color = "black";
 // });

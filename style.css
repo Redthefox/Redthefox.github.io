@@ -88,7 +88,7 @@ background-color: grey;
     justify-content: center;
     /* align-content: space-between; */
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 @viewport {
     width: device-width;
