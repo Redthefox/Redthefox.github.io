@@ -3,9 +3,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.Top{
+    display: block;
+    background-color: white; 
+    margin-top: 0px;
+}
+.nav{
+color: red;
+text-align: center;
+background-color: grey;
+}
 .Boxes{
-    display: inline-flex;
-    flex-flow: column nowrap;
+    display: flex;
+    flex-flow: column wrap;
 }
 .Name{ 
     display: flex;
@@ -15,40 +25,59 @@ body{
 .about{
     display: inline-flex;
     border-style: double;
-    background-image: url(miles/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    border-color: aliceblue;
+    background-color: red;
+    color: red;
+    /* background-image: url(miles/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:cover;  */
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
-    align-self: flex-start;
+    flex-flow: column wrap;
     padding: 25px;
+    align-self: center;
 }
 .projects{
     display: inline-flex;
     border-style: double;
-    background-image: url(miles/523159398-612x612.jpg);
+    border-color: aliceblue;
+    background-color: green;
+    color: black;
+    justify-content: center;
+    align-items:center;
+    flex-flow: column wrap;
+    padding: 25px;
+    align-self: center; 
+    /* background-image: url(miles/523159398-612x612.jpg);
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:cover;  */
+    /* justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: column wrap;
+    padding: 50px;
+    align-self: center;  */
+}
+.Pro2{
+    display: flex;
+    color: red;
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
-    padding: 50px;
-    align-self: center; 
 }
 .Skills{
     display: inline-flex;
     border-style: double;
-    background-image:url(miles/maxresdefault.jpg); 
+    border-color: aliceblue;
+    background-color: blue;
+    color: blue;
+    /* background-image:url(miles/maxresdefault.jpg); 
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:cover;  */
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
-    align-self: flex-end;
+    flex-flow: column wrap;
+    align-self: center;
     padding: 25px;
-    margin-left: 1000px;
-
 }
 .Contact{
     display: inline-flex;
@@ -57,5 +86,15 @@ body{
     background-color: honeydew;
     padding: 10px;
     justify-content: center;
-    align-self: center;
+    /* align-content: space-between; */
+    align-items: center;
+    flex-flow: column wrap;
 }
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+/* @media screen and (max-width: 320px){
+}{
+   display: flex;
+} */
